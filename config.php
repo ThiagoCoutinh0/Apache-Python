@@ -1,9 +1,9 @@
 <?php
 
-    $dbHost = '';
-    $dbUsername = '';
+    $dbHost = 'gate.jelastic.saveincloud.net';
+    $dbUsername = '157812-25094';
     $dbPassword = '';
-    $dbName = '';
+    $dbName = 'formulario';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
